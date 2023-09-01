@@ -1,4 +1,32 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "montserrat";
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  padding: 0 150px;
+  height: 150px;
+  width: 100%;
+  background-color: red;
+}
+
+#nav img {
+  height: 75px;
+}
+
+#nav h4 {
+  font-weight: 500;
 }
